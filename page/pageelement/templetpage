@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+from page.pageelement import tools
+
+#模板页面，不要删除
+
+pages = tools.parseyaml()
+
+
+def get_locater(clazz_name, method_name):
+    locators = pages[clazz_name]['locators']
+    for locator in locators:
+        if locator['name'] == method_name:
+            return locator
+
+{% for page, locators in page_list.items() %}
+class {{page}}:{% for locator in locators %}
+    {{locator}} = get_locater('{{page}}', '{{locator}}'){% endfor %}
+
+    {% endfor %}

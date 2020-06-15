@@ -1,0 +1,38 @@
+MyPage:
+    desc: 我的-菜单页面
+    locators:
+        -
+            name: 我的
+            by: text
+            value: 我的
+        -
+            name: 我的_出行服务
+            by: text
+            value: 出行服务
+
+        -
+            name: 我的_邀请好友
+            by: id
+            value: com.yipiao:id/tv_service_title
+        -
+            name: 我的_消息中心
+            by: text
+            value: 消息中心
+
+        -
+            name: 我的_产品意见
+            by: text
+            value: 产品意见
+        -
+            name: 我的_微信通知
+            by: text
+            value: 微信通知
+
+        -
+            name: 我的_更多
+            by: text
+            value: 更多
+        -
+            name: 我的_加速包
+            by: text
+            value: 加速包

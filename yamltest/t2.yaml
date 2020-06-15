@@ -1,0 +1,6 @@
+- user: admin1
+  psw: "2222222222"
+- user: admin2
+  psw: !!str 111111
+- user: admin3
+  psw: !!str 111111

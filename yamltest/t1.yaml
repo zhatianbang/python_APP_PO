@@ -1,0 +1,4 @@
+a:
+  user: admin
+  psw: !!str 111111
+

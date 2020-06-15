@@ -1,0 +1,12 @@
+YaoQing:
+
+    desc: 邀请好友
+    locators:
+        -
+            name: 弹出
+            by: id
+            value: com.yipiao:id/socialize_text_view
+        -
+            name: 取消分享
+            by: text
+            value: 取消分享
